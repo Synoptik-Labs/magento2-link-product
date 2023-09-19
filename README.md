@@ -36,7 +36,7 @@ Please Note: Our extension perform all of the backend logic of relating the vari
 ##### Using Composer (recommended)
 
 ```
-composer require magepal/link-product
+composer require synoptik-labs/magento2-link-product
 ```
 
 ##### Manually

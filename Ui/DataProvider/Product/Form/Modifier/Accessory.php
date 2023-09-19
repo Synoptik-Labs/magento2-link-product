@@ -12,7 +12,7 @@ use Magento\Ui\Component\Form\Fieldset;
 
 class Accessory extends Related
 {
-    const DATA_SCOPE_ACCESSORY = 'accessory';
+    protected const DATA_SCOPE_ACCESSORY = 'accessory';
     /**
      * @var string
      */
@@ -22,7 +22,7 @@ class Accessory extends Related
      */
     private static $sortOrder = 90;
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function modifyMeta(array $meta)
     {

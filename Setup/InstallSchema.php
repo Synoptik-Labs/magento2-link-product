@@ -17,6 +17,7 @@ class InstallSchema implements InstallSchemaInterface
 {
 
     /**
+     *
      * @param SchemaSetupInterface $setup
      * @param ModuleContextInterface $context
      */

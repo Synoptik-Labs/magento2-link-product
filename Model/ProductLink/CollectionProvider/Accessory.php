@@ -17,6 +17,7 @@ class Accessory implements CollectionProviderInterface
 
     /**
      * Accessory constructor.
+     *
      * @param \MagePal\LinkProduct\Model\Accessory $accessoryModel
      */
     public function __construct(
@@ -26,7 +27,7 @@ class Accessory implements CollectionProviderInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function getLinkedProducts(Product $product)
     {
