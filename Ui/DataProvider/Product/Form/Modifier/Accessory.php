@@ -12,7 +12,7 @@ use Magento\Ui\Component\Form\Fieldset;
 
 class Accessory extends Related
 {
-    protected const DATA_SCOPE_ACCESSORY = 'accessory';
+    public const DATA_SCOPE_ACCESSORY = 'accessory';
     /**
      * @var string
      */
